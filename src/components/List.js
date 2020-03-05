@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class List extends Component {
-  componentWillMount() {
+  getDerivedStateFromProps() {
     this.props.getNotes();
   }
 
