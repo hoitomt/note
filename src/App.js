@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   getNotes = () => {
-    axios.get('http://localhost:3000/notes')
+    axios.get(urlFor('notes'))
     .then((res) => console.log(res.data) )
     .catch((err) => console.log(err.response.data) );
   }

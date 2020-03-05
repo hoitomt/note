@@ -1,5 +1,5 @@
 const urlFor = (endpoint) => {
-    return 'https://localhost:3000' + endpoint;
+  return 'http://localhost:3000' + endpoint;
 }
 
 export default urlFor;

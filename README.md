@@ -1,15 +1,22 @@
 # Note
 Note application built from tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It depends on an [API](https://github.com/FirehoseProject/Note-API) running on localhost:3000
 
 ## Development
+
+### Install Dependencies
+
+```
+yarn install
+```
 
 ### Start the server
 
 ```
 yarn start
 ````
+
 
 ## Available Scripts
 
